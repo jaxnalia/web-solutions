@@ -3,7 +3,7 @@
   import CheckeredPattern from './components/patterns/CheckeredPattern.svelte';
 </script>
 
-<section class="relative min-h-[600px] flex items-center">
+<section class="relative min-h-[600px] flex items-center mt-16">
   <!-- Background image with overlay -->
   <div class="absolute inset-0 z-0">
     <div class="absolute inset-0 bg-gradient-to-br from-dark-50/95 to-dark-200/95"></div>
@@ -25,7 +25,13 @@
       <p class="text-xl text-dark-700 mb-8">
         Expert web design, development, and SEO services to help your business grow online
       </p>
-      <Button href="#contact">Get Started</Button>
+      <Button href="#contact">Contact Us</Button>
+      <a href="/#portfolio">
+        <button class="inline-block bg-gray-500 hover:bg-gray-600 text-white font-bold py-3 px-8 rounded-lg transition-all duration-300">
+        Portfolio
+        </button>
+      </a>
+      
     </div>
   </div>
 </section>
