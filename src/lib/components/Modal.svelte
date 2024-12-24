@@ -25,7 +25,7 @@
     transition:fade|local={{ duration: 100 }}
   >
     <div 
-      class="relative max-w-2xl w-full max-h-[calc(100vh-2rem)] flex flex-col rounded-lg border-2 shadow-lg transition-all duration-300 {colorClasses[color]}"
+      class="relative max-w-2xl w-full max-h-[calc(90vh-2rem)] flex flex-col rounded-lg border-2 shadow-lg transition-all duration-300 {colorClasses[color]}"
       transition:slide|local={{ duration: 200, y: 30 }}
     >
       <button 
